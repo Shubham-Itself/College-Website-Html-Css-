@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.first-container-courses {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(./Images/background.jpg);
+    height: 650px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* position: relative; */
+  }
+  
+  .side-nav ul {
+    margin-top: 15px;
+  }
+  
+  .side-nav li {
+       /* background-image: linear-gradient(rgba(4,9,30,0.7) , rgba(4,9,30,0.7)); */
+    color: white;
+    float: left;
+    /* padding: 0px 15px; */
+    list-style: none;
+    margin: 20px;
+    /* margin-top: 40px; */
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .section-one-courses {
+     
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: 0 auto;
+  }
+  
+  .logo-1 {
+    margin-top: 20px;
+  }
+  
+  .logo-1 img {
+    width: 200px;
+  }
+  
+  .side-nav li:hover {
+    border-bottom: 2px solid red;
+  }
+
+
+  .section-two-courses {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    color: white;
+  }
+
+
+  .second-container-courses {
+    margin-top: 80px;
+  }
+  .section-three-courses {
+    text-align: center;
+  }
+  
+  .section-three-courses h1 {
+    font-size: 40px;
+  }
+  
+  .section-three-courses p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .third-container-courses {
+    margin-top: 90px;
+  }
+  
+  .section-four-courses {
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    /* width: 300px; */
+    /* text-align: center; */
+  }
+  
+  .section-four-courses {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .cards {
+    color: grey;
+    width: 350px;
+    background-color: rgb(255, 239, 235);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .cards h2 {
+    margin: 20px 0px;
+  }
+  .cards p {
+    line-height: 20px;
+    margin: 0px 20px 20px 20px;
+  }
+  
+  .cards:hover {
+    box-shadow: 2px 2px 20px grey;
+    transform: scale(1.01, 1.05);
+  }
+
+
+
+
+
+  .four-container-courses {
+    margin-top: 90px;
+  }
+  .section-five-courses {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-5 img {
+    width: 350px;
+    border-radius: 20px;
+  }
+  
+  .card-5 {
+    width: 350px;
+  }
+  
+  .card-5 h2 {
+    margin: 20px 0px;
+  }
+  
+  .card-5 p {
+    margin: 20px 0px;
+  }
+  
+  .card-5 img:hover {
+    opacity: 0.7;
+  }
+  
+
+
+  .five-container-courses {
+    margin-top: 90px;
+  }
+  
+  .fourth-container-about {
+    margin-top: 40px;
+  }
+  
+  .section-five-about {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-five-about li {
+    color: red;
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+  }
+  
+  .five-container-about {
+    margin-top: 30px;
+  }
+  
+  .section-six-about {
+    text-align: center;
+    letter-spacing: 2px;
+    color: grey;
+  }
+  
+  .fa-heart {
+    color: red;
+  }
+  
+
+
+  .section-four-about {
+    /* text-align: center; */
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-four-about h3 {
+    margin: 30px;
+    font-size: 30px;
+  }
+  
+  .third-container-about {
+    margin-top: 90px;
+  }
+  
+  .fourth-container-about {
+    margin-top: 40px;
+  }
+  
+  .section-five-about {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-five-about li {
+    color: red;
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+  }
+  
+  .five-container-about {
+    margin-top: 30px;
+  }
+  
+  .section-six-about {
+    text-align: center;
+    letter-spacing: 2px;
+    color: grey;
+  }
+  
+  .fa-heart {
+    color: red;
+  }
+  
